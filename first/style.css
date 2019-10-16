@@ -1,0 +1,52 @@
+body{
+	margin: : 0;
+	background: url(https://i.gifer.com/GpAy.gif); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	 		}
+	p {
+	color: white;
+	font-size: 20px;
+	font-family: 'Amatic SC';, cursive;
+	margin-left: 20px;
+	margin-right: 20px; 
+	}
+	h1 {
+	color: green;
+	font-size: 50px;
+	font-family: 'Underdog': cursive;
+	}
+	div {font-size: 35px;
+	font-family: 'Underdog';
+	}
+	a {
+	color: #4a76a8;
+	text-decoration: none;
+	font-size: 25px;
+	}
+
+	#cont {
+		margin: auto;
+		width: 60%
+		background-color: rgba(0, 0, 255, 0.3); 
+	}
+#header {
+	height: 100px;
+	background-color: Purple; 
+	position: relative;
+}
+#leftArrow,#rightArrow{
+	width: 70px;
+	height: auto;
+}
+#left {
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+#right {
+	position: absolute;
+	left: 94%;
+	top: 10px;
+}
