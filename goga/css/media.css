@@ -1,0 +1,66 @@
+@media all and (min-width: 1150px) {
+	.tsp:hover {
+		background-color: #00897b;
+		border-color: transparent;
+	}
+	.green:hover {
+		background-color: transparent;
+		border: 2px solid;
+	}
+	.nav-link:hover {
+		background-color: black;
+		color: white;
+	}
+
+	.second-item:hover {
+		background-color: #00897b;
+		color: white;
+		transform: scale(1.05);
+		box-shadow: 0 0 40px 5px rgba(0,0,0,0.3);
+	}
+
+	.second-item:hover .readmore {
+		color: white;
+		border-color: white;
+	}
+
+	.second-item:hover .icon{
+		fill: white;
+	}
+	.second-item:hover .icon{
+		fill: white;
+	}
+	
+}
+
+
+
+@media all and (max-width: 768px) {
+	.nav-wrapper {
+		overflow: auto;
+		white-space: nowrap;
+	}
+	.logo, .search-wrapper, .topnav {
+		display: inline-block;
+	}
+
+	h1 {
+		font-size: 8vw;
+	}
+	.header-btn {
+		width: 90vw;
+		height: 60px;
+		margin-top: 15px;
+	}
+	.header-btn + .header-btn {
+		margin-left: 0;
+	}
+
+	.first-box {
+		flex-wrap: wrap;
+	}
+	.first-item, .second-item {
+		width: 90%;
+		margin: 20px auto;
+	}
+}
