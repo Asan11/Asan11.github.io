@@ -1,0 +1,55 @@
+body{
+	font-family: impact;
+	background: #000 url(img/3.jpg);
+	background-attachment: fixed;
+}
+
+.text{
+	margin:auto;
+	font-family: arial black;
+}
+.page1{
+	height: 10px;
+	margin-top: 10px;
+	margin: auto;
+	width: 900px;
+	height: 2000px;
+	background-color: DarkSalmon;
+}
+
+.page2{
+	margin: auto;
+	width: 900px;
+	height: 2000px;
+	background-color: Coral;
+}
+
+.page3{
+	margin: auto;
+	width: 900px;
+	height: 2000px;
+	background-color: Tomato;
+}
+
+.page4{
+	margin: auto;
+	width: 900px;
+	height: 2000px;
+	background-color: LightYellow;
+}
+
+.page5{
+	margin: auto;
+	width: 900px;
+	height: 2000px;
+	background-color: PeachPuff;
+}
+
+.page6{
+	margin: auto;
+	width: 900px;
+	height: 2000px;
+	background-color: LightCyan;
+}
+
+ 
