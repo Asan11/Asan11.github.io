@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Дискриминанты</title>
+</head>
+<body>
+	<script>
+		alert('Данная программа решает квадратные уравнения: ax²+bx+c=0. Введите a, b и c.');
+
+		const a = +prompt('Введите a...')
+		const b = +prompt('Введите b...')
+		const c = +prompt('Введите c...')
+
+		let answer = confirm('Ваше уравнения:'+ a + 'x²'+ b + 'x+' + c + '=0?') 
+
+		if(answer){
+			let D = b*b - 4*a*c
+			let sqrt = Math.sqrt(D);
+			let x1 = (-b+sqrt)/(2*a);
+			let x2 = (-b-sqrt)/(2*a);
+			alert('Решение уравнение:'+ a + 'x²'+ b + 'x+' + c + '=0\n' + 'x1 = ' + x1 + '\nx2 =' + x2);
+		}
+		else{
+			alert('Перезагрузи страницу мудила...')
+		}
+	</script>
+</body>
+</html>
